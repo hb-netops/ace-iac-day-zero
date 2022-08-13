@@ -2,7 +2,7 @@ terraform {
   required_version = ">= 1.1.0"
   backend "remote" {
     hostname = "app.terraform.io"
-    # organization = "hbcorp"
+    organization = "hbcorp"
     workspaces {
       name = "ace-iac-day-zero"
     }
